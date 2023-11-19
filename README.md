@@ -1,5 +1,4 @@
-# Coding Patterns, DDD and Clean Code
-
+# Coding Patterns in DDD
 Welcome to the Patterns in DDD repository! This repository is an extensive collection of coding patterns and best practices in C# and ASP.NET Core, emphasizing Domain Driven Design (DDD), Clean Code, and Test-Driven Development (TDD).
 
 ## Objective
