@@ -4,13 +4,9 @@ using Xunit;
 
 namespace PatternsInDDD.Patterns;
 
-/// <summary>
-/// 
-/// </summary>
 public class SpecificationPatternExample
 {
     private readonly List<Employee> _listOfEmployees = new EmployeeFaker().Generate(500);
-    private readonly List<Customer> _listOfCustomers = new CustomerFaker().Generate(500);
 
     [Fact]
     public void CanGetProductsThatContainName()
