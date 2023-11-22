@@ -78,3 +78,10 @@ The Adapter Pattern, a structural design pattern, plays a significant role in th
 - **Approach**: Mock or stub implementations of adapters can be used in unit tests to focus on domain logic without external service implementation.
 
 In summary, the Adapter Pattern supports DDD principles by promoting clean separation between domain and infrastructure, facilitating integration between different parts of the system, and ensuring that the core domain logic remains unaffected by external changes and influences.
+
+## Anti-corruption Layer
+
+- The Anti-corruption Layer (ACL) in DDD serves as a crucial boundary that prevents external systems from negatively influencing the design and the integrity of your domain model. 
+- It acts as a barrier between your domain and external systems (e.g. legacy systems or third-party APIs), ensuring that the complexities, outdated practices, or differing semantics of these systems do not corrupt your domain.
+- By implementing an ACL, you effectively isolate your domain from external influences. This isolation is typically achieved through patterns like Adapter and Facade, which translate and adapt external systems' data and functionality into a from that's compatible with your domain model.
+- The ACL allows your domain to evolve and maintain its purity and business focus, free from the constraints or limitations imposed by external dependencies.
